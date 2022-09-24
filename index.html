@@ -21,11 +21,11 @@
 							</button>
 						</div>
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Location</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+							<li class="menu__item"><a data-goto=".hero" href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a data-goto=".location" href="#" class="menu__link">Location</a></li>
+							<li class="menu__item"><a data-goto=".blog" href="#" class="menu__link">Blog</a></li>
+							<li class="menu__item"><a data-goto=".footer" href="#" class="menu__link">About</a></li>
+							<li class="menu__item"><a data-goto=".footer" href="#" class="menu__link">Contact</a></li>
 						</ul>
 					</nav>		
 				</div>
@@ -305,7 +305,73 @@
 		</main>
 		<footer class="footer">
 			<div class="footer__container container">
-				
+				<div class="footer__body">
+					<div class="footer__column">
+						<a class="footer__logo logo">Trevland</a>
+						<div class="footer__contact contact">
+							<div class="contact__text">Contact us</div>
+							<a href="mailto:shovasatkhira88.com" class="contact__email">@shovasatkhira88.com</a>
+							<ul class="contact__list">
+								<li class="contact__item">
+									<a href="#" class="contact__link"><img src="img/icons/facebook.svg" alt="Facebook"></a>
+								</li>
+								<li class="contact__item">
+									<a href="#" class="contact__link"><img src="img/icons/instagram.svg" alt="Instagram"></a>
+								</li>
+								<li class="contact__item">
+									<a href="#" class="contact__link"><img src="img/icons/twitter.svg" alt="Twitter"></a>
+								</li>
+								<li class="contact__item">
+									<a href="#" class="contact__link"><img src="img/icons/google.svg" alt="Google Plus"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__label">Services</div>
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">About</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Our story</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Benefits</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Branding</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__column">
+						<div class="footer__label">Legal</div>
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Terms & Conditions</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Privecy Policy</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Terms of use</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__column">
+						<div class="footer__subscribe">
+							<h4 class="footer__label sub">SUBSCRIBE NOW</h4>
+							<form action="#" class="footer__form subscribe">
+								<input class="subscribe__email" name="form[]" type="email" required="" autocomplete="off" placeholder="Email">
+								<button class="subscribe__button" type="submit">Send</button>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
 		</footer>
 	</div>
